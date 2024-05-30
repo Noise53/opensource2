@@ -222,6 +222,15 @@
     <Filter Include="Project Files\features\visuals\fov_changer">
       <UniqueIdentifier>{a9afec16-42bb-4829-b771-783f33c762f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Project Files\sdk\math\types">
+      <UniqueIdentifier>{f4e22d27-e376-4ffb-b8c1-2c5f46b4ca3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\sdk\source-sdk\classes\material_system">
+      <UniqueIdentifier>{0bfb6ad8-ac0e-4458-8cd9-befbcb69af24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\sdk\source-sdk\classes\entity\hitbox">
+      <UniqueIdentifier>{70e71076-6b47-4aaf-b340-cdbbbe40f9ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\entrypoint\dllmain.cpp">
@@ -410,6 +419,9 @@
     <ClCompile Include="src\features\fov_changer\fov_changer.cpp">
       <Filter>Project Files\features\visuals\fov_changer</Filter>
     </ClCompile>
+    <ClCompile Include="src\sdk\math\classes\transform.cpp">
+      <Filter>Project Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\sdk\utilities\static_string.hpp">
@@ -532,7 +544,6 @@
     <ClInclude Include="src\sdk\source-sdk\interfaces\cinputsystem.hpp">
       <Filter>Project Files\sdk\source-sdk\interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="src\sdk\shaders\build\gaussian_blur.hpp" />
     <ClInclude Include="src\sdk\source-sdk\source-sdk.hpp">
       <Filter>Project Files\sdk\source-sdk</Filter>
     </ClInclude>
@@ -1771,6 +1782,30 @@
     </ClInclude>
     <ClInclude Include="src\features\fov_changer\fov_changer.hpp">
       <Filter>Project Files\features\visuals\fov_changer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\math\classes\transform.hpp">
+      <Filter>Project Files\sdk\math\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\math\types\bbox_t.hpp">
+      <Filter>Project Files\sdk\math\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\shaders\build\gaussian_blur.hpp">
+      <Filter>Resource Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\source-sdk\interfaces\iscenelayer.hpp">
+      <Filter>Project Files\sdk\source-sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\math\types\quaternion.hpp">
+      <Filter>Project Files\sdk\math\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\source-sdk\classes\material_system\material_system.hpp">
+      <Filter>Project Files\sdk\source-sdk\classes\material_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\source-sdk\classes\entity\hitbox\hitbox.hpp">
+      <Filter>Project Files\sdk\source-sdk\classes\entity\hitbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\source-sdk\classes\types\c_sounddata.hpp">
+      <Filter>Project Files\sdk\source-sdk\classes\types</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

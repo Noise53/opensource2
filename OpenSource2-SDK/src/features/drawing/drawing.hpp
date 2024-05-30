@@ -1,5 +1,7 @@
 #pragma once
 
+#include <mutex>
+
 #include "../feature.hpp"
 
 class Drawing : public Feature {

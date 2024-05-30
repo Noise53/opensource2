@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <utility>
+#include <mutex>
 
 #include "../sdk/utilities/static_string.hpp"
 
